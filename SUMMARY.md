@@ -54,6 +54,12 @@
   + [003.选择storage.driver](./002.user_guide/003.storage_driver/003.select-a-driver.md)
   + ... [点击查看官网各个驱动的详细介绍](https://docs.docker.com/engine/userguide/storagedriver/aufs-driver/) ...
 
+### 生产环境中应用
+
++ The Basics
+  + [配置和启动容器](/engine/admin/index.md)
+  + [自动启动容器](/engine/admin/start-containers-automatically.md)
+  
 ### docker-compose
 
 + [002.install](./005.docker_compose/002.install.md)
