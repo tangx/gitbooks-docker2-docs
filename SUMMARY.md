@@ -7,20 +7,20 @@
   
 ## 环境准备
 
-+ [Ubuntu 16.04 上安装 Docker](./000.get_docker/000.install-docker-ce.md)
-+ [容器代理](./999.examples/002.registry_proxy/registry_proxy.md)
-+ [常用 daemon.json](/000.get_docker/001.docker-configure-daemon-json.md)
+  + [Ubuntu 16.04 上安装 Docker](./000.get_docker/000.install-docker-ce.md)
+  + [容器代理](./999.examples/002.registry_proxy/registry_proxy.md)
+  + [常用 daemon.json](/000.get_docker/001.docker-configure-daemon-json.md)
 
 ## 从零开始学 docker
 
-+ [简介](/get_started/001.Orientation.md)
-+ [容器](/get_started/002.container.md)
-+ [服务](/get_started/003.service.md)
-+ [swarm](/get_started/004.swarm.md)
-+ [tack](/get_started/005.stack.md)
-+ [006.发布应用](/get_started/006.deploy-your-app.md)
-+ 通过案例学 Docker
-  + [容器网络链接](/engine/tutorials/networkingcontainers/index.md)
+  + [简介](/get_started/001.Orientation.md)
+  + [容器](/get_started/002.container.md)
+  + [服务](/get_started/003.service.md)
+  + [swarm](/get_started/004.swarm.md)
+  + [tack](/get_started/005.stack.md)
+  + [006.发布应用](/get_started/006.deploy-your-app.md)
+  + learn Docker by example
+    + [容器网络链接](/engine/tutorials/networkingcontainers/index.md)
 
 ## 创建 docker 镜像
 
