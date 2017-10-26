@@ -2,21 +2,15 @@
 
 ## 目录地址
 
-[目录](SUMMARY.MD)
+[目录](/SUMMARY.md)
 
 ## 项目说明
 
-为了更方便的阅读，本项目已经同步到 gitbooks 上了， 看这里 [Docker 17.06 官方文档中文笔记](https://docker2.octowhale.com)
+为了更方便的阅读，本项目已经同步到 gitbooks 上了， 看这里 [Docker 17.09 官方文档中文笔记 https://docs-cn.docker.octowhale.com](https://docs-cn.docker.octowhale.com)
 
 ### 文档版本
 
-docker 官网文档阅读笔记及实验。
-
-基于官方文档 `Docker v17.09`。现在基本兼容 `17.09` 的内容。
-
-| 系统     | docker 版本     |
-| :------------- | :------------- |
-| `Ubuntu 16.04.3` | `docker-ce 17.09` / `docker-ce 17.06` |
+基于当前官网文档最新版本。
 
 ### 些许建议
 
@@ -53,7 +47,6 @@ docker 官网文档阅读笔记及实验。
   + docker-cn 官方：`https://registry.docker-cn.com`
   + 中科大： `https://docker.mirrors.ustc.edu.cn`
 
+## Lisences
 
-  ## Lisences
-
-  本项目遵循 [`GNU GENERAL PUBLIC LICENSE Version 3`](./LICENSE)
+本项目遵循 [`GNU GENERAL PUBLIC LICENSE Version 3`](./LICENSE)
