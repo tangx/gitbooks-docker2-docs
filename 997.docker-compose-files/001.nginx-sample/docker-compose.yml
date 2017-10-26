@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  web:
+    image: nginx:latest
+    networks:
+      - frontweb
+    ports:
+      # https://docs.docker.com/compose/compose-file/#ports
+      - "8080:80"
+    # deploy:
+      # replicas: 1
+      # restart_policy:
+      #   condition: on-failure
+    volumes:
+      # https://docs.docker.com/compose/compose-file/#volumes
+      - ./html:/usr/share/nginx/html
+      # - html_data:/usr/share/nginx/html
+
+    restart:
+      always
+
+# https://docs.docker.com/compose/compose-file/#network-configuration-reference
+networks:
+  frontweb:
+    driver: bridge
+    ipam:
+      driver: default   # 这里不能指定 bridge ， 否则无法创建
+      config:
+        - subnet: 172.28.0.0/16
+    # enable_ipv6: true
+
+
+# https://docs.docker.com/compose/compose-file/#volume-configuration-reference
+volumes:
+  html_data: 

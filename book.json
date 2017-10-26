@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "disqus",
+    "sharing",
+    "sitemap",
+    "github-buttons"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "tangx"
+    },
+    "sitemap": {
+      "hostname": "https://docker2.octowhale.com/"
+    },
+    "github-buttons": {
+      "repo": "octowhale/gitbooks-docker2-docs",
+      "types": [
+        "star"
+      ],
+      "size": "small"
+    }
+  }
+}
