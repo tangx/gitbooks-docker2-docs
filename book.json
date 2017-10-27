@@ -16,8 +16,8 @@
     "github-buttons",
     "search-pro",
     "collapsible-menu",
-    "localized-footer",
-    "ace"
+    "ace",
+    "gtoc"
   ],
   "pluginsConfig": {
     "disqus": {
@@ -32,11 +32,6 @@
         "star"
       ],
       "size": "small"
-    },
-    "localized-footer":
-    {
-        "hline": true,
-        "filename": "/FOOTER.md"
     }
   }
 }
