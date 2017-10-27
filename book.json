@@ -13,7 +13,12 @@
     "disqus",
     "sharing",
     "sitemap",
-    "github-buttons"
+    "github-buttons",
+    "search-pro",
+    "collapsible-menu",
+    "bibtex-indexed-cite",
+    "localized-footer",
+    "ace"
   ],
   "pluginsConfig": {
     "disqus": {
@@ -28,6 +33,11 @@
         "star"
       ],
       "size": "small"
+    },
+    "localized-footer":
+    {
+        "hline": true,
+        "filename": "/FOOTER.md"
     }
   }
 }
