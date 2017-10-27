@@ -14,10 +14,8 @@
     "sharing",
     "sitemap",
     "github-buttons",
-    "search-pro",
-    "collapsible-menu",
-    "ace",
-    "gtoc"
+    "-lunr", "-search", "search-pro",
+    "navigator","anchor-navigation"
   ],
   "pluginsConfig": {
     "disqus": {
