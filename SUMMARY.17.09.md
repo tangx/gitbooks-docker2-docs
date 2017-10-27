@@ -1,4 +1,4 @@
-bui# SUMMARY
+# SUMMARY
 
 ## 项目说明
 
@@ -16,20 +16,19 @@ bui# SUMMARY
 + [简介](/get_started/001.Orientation.md)
 + [容器](/get_started/002.container.md)
 + [服务](/get_started/003.service.md)
-+ [集群](/get_started/004.swarm.md)
-+ [堆栈](/get_started/005.stack.md)
-+ [发布应用](/get_started/006.deploy-your-app.md)
++ [swarm](/get_started/004.swarm.md)
++ [stack](/get_started/005.stack.md)
++ [006.发布应用](/get_started/006.deploy-your-app.md)
 + 通过案例学 Docker
   + [容器网络链接](/engine/tutorials/networkingcontainers/index.md)
 
-## Develop with Docker
+## 创建 docker 镜像
 
-+ Work with images
-  + [Dockerfile 最佳实践](/engine/userguide/eng-image/dockerfile_best-practices.md)
-  + [创建基础镜像](/engine/userguide/eng-image/baseimages.md)
-  + [多阶构建](/engine/userguide/eng-image/multistage-build.md)
-  + [Dockerfile 参考文档](https://docs.docker.com/engine/reference/builder/)
-  + [镜像管理](https://docs.docker.com/engine/userguide/eng-image/image_management/)
++ [Dockerfile 最佳实践](./002.user_guide/002.work_with_images/001.dockerfile_best-practices.md)
++ [创建基础镜像](./002.user_guide/002.work_with_images/002.baseimages.md)
++ [多阶构建](./002.user_guide/002.work_with_images/003.multistage-build.md)
++ [Dockerfile 参考文档](https://docs.docker.com/engine/reference/builder/)
++ [镜像管理](https://docs.docker.com/engine/userguide/eng-image/image_management/)
 
 
 ## 配置容器网络
@@ -61,7 +60,7 @@ bui# SUMMARY
 + The Basics
   + [配置和启动容器](/engine/admin/index.md)
   + [自动启动容器](/engine/admin/start-containers-automatically.md)
-
+  
 ## docker-compose
 
 + [安装 docker-compose](./005.docker_compose/002.install.md)
