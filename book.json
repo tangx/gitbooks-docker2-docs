@@ -1,4 +1,14 @@
 {
+  "title":"Docker 17.09 官网文档 中文笔记",
+  "author": "octowahle",
+  "theme-default": {
+    "showLevel": true
+  },
+  "links":{
+    "sidebar":{
+      "Home":"https://tangx.in"
+    }
+  },
   "plugins": [
     "disqus",
     "sharing",
