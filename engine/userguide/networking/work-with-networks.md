@@ -331,6 +331,7 @@ $ docker attach container2
 在容器中使用 `ifconfig` 命令查看容器网络信息
 
 8. docker 嵌入的 dns 服务器可以将 `user-defined` 网络中的 `容器名` 解析为 `容器IP` 。 因此，可以通过 `container2` ping 通 `contaienr3`
+
 ```bash
 ## in container2
 / # ping -w 4 container3
@@ -365,6 +366,7 @@ round-trip min/avg/max = 0.072/0.085/0.101 ms
 ```
 
 9. 由于 `container1` 和 `container3` 不再同一个网络，因此即使使用 `容器 IP` 也无法通信
+
 ```bash
 $ docker attach container3
 
