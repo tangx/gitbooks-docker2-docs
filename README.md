@@ -28,12 +28,12 @@
 + 为了保证 Docker 最新功能，尽量选择 `ubuntu 16.04` 上安装，可以直接看 [在 ubuntu 16.04 上安装 docker-ce](000.get_docker/000.install-docker-ce.md)。
 + 不要 **CentOS 6** 安装 Docker，不要安装 **CentOS 7** 自带源中的 Docker
 
-#### 代理服务器
+### 代理服务器
 
 在本地测试环境中，最好搭建一个『仓库代理服务器』。如果你用的是大水管，那当我没说。搭建 `代理服务器` 的时候，使用 `国内镜像源`，可以加速下载。
 + [启动『仓库代理服务器』](/999.examples/002.registry_proxy/registry_proxy.md)
 
-#### 镜像服务器
+### 镜像服务器
 
 国内镜像源。其实用诸如 aliyun、 daocloud 的源也没关系。这里提供两个不用注册即可使用的官方镜像源。配置方法参考 [启动『仓库代理服务器』](/999.examples/002.registry_proxy/registry_proxy.md)
 + docker-cn 官方：`https://registry.docker-cn.com`
