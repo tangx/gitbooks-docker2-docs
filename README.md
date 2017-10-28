@@ -10,15 +10,11 @@
 
 + **GitHub 项目地址**: https://github.com/octowhale/gitbooks-docker2-docs/
 + **GitBooks 在线阅读**: https://www.gitbook.com/read/book/octowhale/docker-doc-cn
-  + [下载 PDF 格式](https://www.gitbook.com/download/pdf/book/octowhale/docker-doc-cn)
-  + [下载 MOBI 格式](https://www.gitbook.com/download/mobi/book/octowhale/docker-doc-cn)
-  + [下载 EPUB 格式](https://www.gitbook.com/download/epub/book/octowhale/docker-doc-cn)
-
 
 ## 常见问题
 
 + 学会如何聪明的提问 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
-+ 对 Docker 不是很了解，且有很多问题，可以先去看看 **蜗牛大哥** 的 [《docker 100 问》](https://blog.lab99.org/post/docker-2016-07-14-faq.html)。这里能找到你初级入门的所有答案
++ 对 Docker 不是很了解，还有很多问题，可以先去看看 **蜗牛大哥** 的 [《常见 docker 100 问》](https://blog.lab99.org/post/docker-2016-07-14-faq.html)。在这里几乎能找到你入门的所有答案。
 
 ### 勘误
 
@@ -46,3 +42,12 @@
 ## Lisences
 
 本项目遵循 [`GNU GENERAL PUBLIC LICENSE Version 3`](./LICENSE)
+
+
+## 捐助
+
+如果你觉得该文档对你有所帮助
+
+可以通过 `微信` 请我喝杯咖啡。
+
+![wechat pay](/donate/wechat_pay.png)
