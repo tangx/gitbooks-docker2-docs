@@ -10,6 +10,7 @@
     }
   },
   "plugins": [
+    "adsense",
     "disqus",
     "sharing",
     "sitemap",
@@ -30,6 +31,13 @@
         "star"
       ],
       "size": "small"
+    },
+    "adsense": {
+      "client": "pub-7426817146402489",
+      "slot": "9386557738",
+      "format": "auto",
+      "element": ".page-inner section",
+      "position": "top"
     }
   }
 }
