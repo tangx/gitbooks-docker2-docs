@@ -10,7 +10,6 @@
     }
   },
   "plugins": [
-    "adsense",
     "disqus",
     "sharing",
     "sitemap",
@@ -23,7 +22,7 @@
       "shortName": "tangx"
     },
     "sitemap": {
-      "hostname": "https://docker2.octowhale.com/"
+      "hostname": "https://docs-cn.docker.octowhale.com/"
     },
     "github-buttons": {
       "repo": "octowhale/gitbooks-docker2-docs",
@@ -31,13 +30,6 @@
         "star"
       ],
       "size": "small"
-    },
-    "adsense": {
-      "client": "pub-7426817146402489",
-      "slot": "9386557738",
-      "format": "auto",
-      "element": ".page-inner section",
-      "position": "top"
     }
   }
 }
