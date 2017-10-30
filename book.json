@@ -22,7 +22,7 @@
       "shortName": "tangx"
     },
     "sitemap": {
-      "hostname": "https://docker2.octowhale.com/"
+      "hostname": "https://docs-cn.docker.octowhale.com/"
     },
     "github-buttons": {
       "repo": "octowhale/gitbooks-docker2-docs",
