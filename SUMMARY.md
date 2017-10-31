@@ -61,15 +61,16 @@
 + The Basics
   + [配置和启动容器](/engine/admin/index.md)
   + [自动启动容器](/engine/admin/start-containers-automatically.md)
+  + [Promethues 监控](/engine/admin/promethues.md)
 
 ## docker-compose
 
-+ [安装 docker-compose](./005.docker_compose/002.install.md)
-+ [docker-compose 初探](./005.docker_compose/003.getting_start.md)
-+ 参考文档
-  + [overview](./005.docker_compose/004.reference/001.overview.md)
-  + [envvars](./005.docker_compose/004.reference/002.envvars.md)
-  + [命令行的完全体](./005.docker_compose/004.reference/003.command-line_completion.md)
++ [compose 安装](/compose/install.md)
++ [compose 上手指南](/compose/gettingstarted.md)
++ Compose 命令行参考文档
+  + [overview](/compose/reference/overview.md)
+  + [envvars](/compose/reference/envvars.md)
+  + [命令行的完全体](/compose/completion.md)
 
 ## 997.docker-compose 实战
 
