@@ -61,6 +61,7 @@
 + The Basics
   + [配置和启动容器](/engine/admin/index.md)
   + [自动启动容器](/engine/admin/start-containers-automatically.md)
+  + [Promethues 监控](/engine/admin/promethues.md)
 
 ## docker-compose
 
