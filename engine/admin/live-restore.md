@@ -59,9 +59,7 @@ docker daemon 进程长时间不活动会对容器产生不良影响。 容器�
 
 1. 在配置 ` "live-restore" : true ` 之后重启 Docker
 1. 不知道在什么时候做测试的时候，开启了 swarm mode，及 `docker swarm init`
-1. 重启 Docker `sudo systemctl restart docker` 的时候出现以下报错。
-
-> 结论： 即配置有冲突的时候，Docker 报错退出，而不会进行忽略。
+1. 由于 `live-restore` 与 swarm mode 冲突，因此重启 Docker 的时候出现以下报错：
 
 ```log
 Nov 01 10:33:59 instance-4 dockerd[30728]: time="2017-11-01T10:33:59.310839742Z" level=info msg="There are old running containers, the network config will not take affect"
