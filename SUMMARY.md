@@ -62,6 +62,7 @@
   + [配置和启动容器](/engine/admin/index.md)
   + [自动启动容器](/engine/admin/start-containers-automatically.md)
   + [Promethues 监控](/engine/admin/promethues.md)
+  + [Docker 宕机期间保持容器存活](/engine/admin/live-restore.md)
 
 ## docker-compose
 
