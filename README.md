@@ -4,7 +4,9 @@
 
 > 建议有英语能力的人直接到 [docker 官网文档](https://docs.docker.com) 去看。
 
-[目录](/SUMMARY.md)
+[官方目录结构](/SUMMARY.md)
+
+[小白入门目录结构](/SUMMARY_Newbee.md)
 
 ## 项目地址
 
@@ -13,8 +15,9 @@
 
 ## 常见问题
 
-+ 学会如何聪明的提问 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 + 对 Docker 不是很了解，还有很多问题，可以先去看看 **蜗牛大哥** 的 [《常见 docker 100 问》](https://blog.lab99.org/post/docker-2016-07-14-faq.html)。在这里几乎能找到你入门的所有答案。
++ 学会如何聪明的提问 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
++ 学会了 《提问的智慧》， 那就 [《别提傻逼问题》](https://github.com/octowhale/Stop-Ask-Questions-The-Stupid-Ways)
 
 ### 勘误
 
