@@ -6,12 +6,15 @@
 
 [官方目录结构](/SUMMARY.md)
 
-[小白入门目录结构](/SUMMARY_Newbee.md)
+[小白入门目录结构](/SUMMARY_NewBee.md)
 
 ## 项目地址
 
 + **GitHub 项目地址**: https://github.com/octowhale/gitbooks-docker2-docs/
 + **GitBooks 在线阅读**: https://www.gitbook.com/read/book/octowhale/docker-doc-cn
+  + [下载 PDF](https://www.gitbook.com/download/pdf/book/octowhale/docker-doc-cn)
+  + [下载 EPUB](https://www.gitbook.com/download/epub/book/octowhale/docker-doc-cn)
+  + [下载 MOBI](https://www.gitbook.com/download/mobi/book/octowhale/docker-doc-cn)
 
 ## 常见问题
 
