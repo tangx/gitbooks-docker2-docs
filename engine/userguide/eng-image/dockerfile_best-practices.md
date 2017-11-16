@@ -99,11 +99,15 @@ LABEL vendor=ACME\ Incorporated \
 
 [Dockerfile reference for the RUN instruction](https://docs.docker.com/engine/reference/builder/#run)
 
-As always, to make your `Dockerfile` more `readable`, `understandable`, and `maintainable`, split `long or complex` `RUN` statements on `multiple lines` separated with `backslashes`.
+记住，写 Dockerfile 的基本规则
++ `可读性高`
++ `容易理解`
++ `方便维护`
++ 将 `长而复杂的 RUN 语句` 使用 `换行符 (\)` 分割成多行。
 
 #### APT-GET
 
-避免使用 `UN apt-get upgrade` or `dist-upgrade` 。 而应该指定特定的包，例如 `apt-get install -y foo`。
+避免使用 `RUN apt-get upgrade` or `dist-upgrade` 。 而应该指定特定的包，例如 `apt-get install -y foo`。
 
 Always `combine(联合)` `RUN apt-get update` with `apt-get install` in the same RUN statement, for example:
 ```
