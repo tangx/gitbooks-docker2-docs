@@ -56,8 +56,16 @@ sudo apt-get install -y docker-ce
 if [ "$area" == "cn" ]
 then
 {
-    sudo sed -i --follow-symlinks '/^ExecStart/s/\(.*\)/\1 --registry-mirror=https:\/\/docker.mirrors.ustc.edu.cn/' /etc/systemd/system/multi-user.target.wants/docker.service
+    # sudo sed -i --follow-symlinks '/^ExecStart/s/\(.*\)/\1 --registry-mirror=https:\/\/docker.mirrors.ustc.edu.cn/' /etc/systemd/system/multi-user.target.wants/docker.service
     
+    cat > daemon.json <<EOF
+{
+    "registry-mirrors":"[https://docker.mirrors.ustc.edu.cn/]",
+    "bid":"10.233.0.1/16"
+}
+EOF
+
+    sudo mv docker.json /etc/docker/daemon.json
     sudo systemctl daemon-reload
     sudo systemctl restart docker
 }
