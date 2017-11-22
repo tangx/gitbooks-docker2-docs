@@ -15,7 +15,20 @@
     "sitemap",
     "github-buttons",
     "-lunr", "-search", "search-pro",
-    "navigator","anchor-navigation"
+    "navigator","anchor-navigation",
+    "github",
+    "codesnippet",
+    "splitter",
+    "page-toc-button",
+    "image-captions",
+    "editlink",
+    "back-to-top-button",
+    "-lunr", "-search", "search-plus",
+    "github-buttons@2.1.0",
+    "favicon@^0.0.2",
+    "tbfed-pagefooter@^0.0.1",
+    "3-ba",
+    "theme-default"
   ],
   "pluginsConfig": {
     "disqus": {

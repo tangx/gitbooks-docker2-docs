@@ -60,10 +60,3 @@
 + 腾讯公益平台 (http://gongyi.qq.com)
 + 阿里公益平台 (https://love.alipay.com/)
 
-### 请我和咖啡
-
-如果你觉得该文档对你有所帮助
-
-可以通过 `微信` 请我喝杯咖啡。
-
-![wechat pay](/donate/wechat_pay.png)
