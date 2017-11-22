@@ -6,7 +6,7 @@
   },
   "links":{
     "sidebar":{
-      "Home":"https://tangx.in"
+      "Aloha Mr.Tang":"https://tangx.in"
     }
   },
   "plugins": [
@@ -35,15 +35,14 @@
       "types": [
         "star"
       ],
-      "size": "small",
-      
-      "github": {
-        "url": "https://github.com/octowhale/gitbooks-docker2-docs"
+      "size": "small"
+    },
+    "github": {
+      "url": "https://github.com/octowhale/gitbooks-docker2-docs"
     },
     "editlink": {
-        "base": "https://github.com/octowhale/gitbooks-docker2-docs/blob/dev/",
+        "base": "https://github.com/octowhale/gitbooks-docker2-docs/tree/dev/",
         "label": "编辑本页"
-    }
     }
   }
 }
