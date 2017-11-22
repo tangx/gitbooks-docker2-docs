@@ -24,6 +24,9 @@
     "theme-default"
   ],
   "pluginsConfig": {
+    "theme-default": {
+        "showLevel": true
+    },
     "disqus": {
       "shortName": "tangx"
     },
