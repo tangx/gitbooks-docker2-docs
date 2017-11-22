@@ -6,18 +6,27 @@
   },
   "links":{
     "sidebar":{
-      "Home":"https://tangx.in"
+      "Aloha Mr.Tang":"https://tangx.in"
     }
   },
   "plugins": [
     "disqus",
     "sharing",
     "sitemap",
-    "github-buttons",
-    "-lunr", "-search", "search-pro",
-    "navigator","anchor-navigation"
+    "github",
+    "codesnippet",
+    "splitter",
+    "page-toc-button",
+    "editlink",
+    "back-to-top-button",
+    "-lunr", "-search", "search-plus",
+    "github-buttons@2.1.0",
+    "theme-default"
   ],
   "pluginsConfig": {
+    "theme-default": {
+        "showLevel": true
+    },
     "disqus": {
       "shortName": "tangx"
     },
@@ -30,6 +39,13 @@
         "star"
       ],
       "size": "small"
+    },
+    "github": {
+      "url": "https://github.com/octowhale/gitbooks-docker2-docs"
+    },
+    "editlink": {
+        "base": "https://github.com/octowhale/gitbooks-docker2-docs/tree/dev/",
+        "label": "编辑本页"
     }
   }
 }
