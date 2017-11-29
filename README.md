@@ -15,10 +15,14 @@
   + [下载 PDF](https://www.gitbook.com/download/pdf/book/octowhale/docker-doc-cn)
   + [下载 EPUB](https://www.gitbook.com/download/epub/book/octowhale/docker-doc-cn)
   + [下载 MOBI](https://www.gitbook.com/download/mobi/book/octowhale/docker-doc-cn)
++ **国内 七牛 镜像**(可能过期): http://p05r4f6dx.bkt.clouddn.com
+
+> 尽量到 `GitHub` 和 `GitBook` 上面阅读
 
 ## 常见问题
 
-+ 对 Docker 不是很了解，还有很多问题，可以先去看看 **蜗牛大哥** 的 [《常见 docker 100 问》](https://blog.lab99.org/post/docker-2016-07-14-faq.html)。在这里几乎能找到你入门的所有答案。
++ 如果你对 Docker 没有整体概念，或者你想了解更过的 Docker 生态，参考 **Cloudman** 的 [《每天 5 分钟玩转 Docker](http://www.cnblogs.com/CloudMan6/tag/Docker/)
++ 如果你对 Docker 不是很了解，还有很多问题，可以先去看看 **蜗牛大哥** 的 [《常见 docker 100 问》](https://blog.lab99.org/post/docker-2016-07-14-faq.html)。在这里几乎能找到你入门的所有答案。
 + 学会如何聪明的提问 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 + 学会了 《提问的智慧》， 那就 [《别提傻逼问题》](https://github.com/octowhale/Stop-Ask-Questions-The-Stupid-Ways)
 
@@ -49,9 +53,7 @@
 
 本项目遵循 [`GNU GENERAL PUBLIC LICENSE Version 3`](./LICENSE)
 
-
 ## 捐助
-
 
 ### 公益捐助
 
@@ -59,4 +61,3 @@
 
 + 腾讯公益平台 (http://gongyi.qq.com)
 + 阿里公益平台 (https://love.alipay.com/)
-
