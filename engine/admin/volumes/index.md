@@ -121,7 +121,7 @@ test-vol
 
 ## Good use cases for tmpfs mount
 
-建议使用 `bind mount` 的场景包括：
+建议使用 `tmpfs mount` 的场景包括：
 
 + 处于安全或性能考虑，不想数据被保存在宿主机硬盘或容器中。
 
