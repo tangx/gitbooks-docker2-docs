@@ -217,7 +217,7 @@ ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
 ```
 
 
-### AND or COPY
+### ADD or COPY
 
 [Dockerfile reference for the ADD instruction](https://docs.docker.com/engine/reference/builder/#add)
 
